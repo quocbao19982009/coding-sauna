@@ -1,0 +1,18 @@
+.organizer {
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.organizer h2 {
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.itemContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 100%;
+}

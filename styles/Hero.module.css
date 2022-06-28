@@ -1,0 +1,35 @@
+.hero {
+  background-color: var(--white);
+  font-size: 2rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1.2rem;
+}
+
+.hero h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.hero p {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.location div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.location span {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.tree {
+  display: flex;
+  justify-content: center;
+}

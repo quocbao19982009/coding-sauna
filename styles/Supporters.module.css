@@ -1,0 +1,21 @@
+.supporter {
+  background-color: var(--secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supporter h2 {
+  font-size: 4rem;
+  margin: 1rem 0;
+  color: var(--white);
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  max-width: 250px;
+}

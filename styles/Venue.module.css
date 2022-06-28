@@ -1,0 +1,30 @@
+.venue {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.venue h2 {
+  font-size: 4rem;
+}
+
+.venue h3 {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.venue p {
+  font-size: 1.8rem;
+  font-size: 400;
+}
+
+.description {
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-top: 26px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}

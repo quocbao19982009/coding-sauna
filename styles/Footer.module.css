@@ -1,0 +1,33 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--white);
+  color: var(--secondary);
+}
+
+.footer p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.footer li:hover {
+  cursor: pointer;
+  color: #549749;
+}
+
+.footer a {
+  font-size: 1.2rem;
+}
