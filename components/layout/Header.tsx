@@ -31,18 +31,18 @@ const Header = () => {
       >
         <ul className={styles["main-nav-list"]}>
           <li onClick={closeNavbarHandler}>
-            <a className={styles["main-nav-link"]} href="#home">
+            <a className={styles["main-nav-link"]} href="#hero">
               Home
             </a>
           </li>
           <li onClick={closeNavbarHandler}>
-            <a className={styles["main-nav-link"]} href="#About">
-              About Us
+            <a className={styles["main-nav-link"]} href="#venue">
+              Location
             </a>
           </li>
           <li onClick={closeNavbarHandler}>
-            <a className={styles["main-nav-link"]} href="#News">
-              News
+            <a className={styles["main-nav-link"]} href="#organizer">
+              Our Team
             </a>
           </li>
         </ul>

@@ -22,7 +22,7 @@ const Venue = () => {
             </p>
           </div>
           <div className={styles.map}>
-            <Image src={map} />
+            <Image alt="coding sauna map" src={map} width={320} height={331} />
           </div>
         </div>
       </Container>

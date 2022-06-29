@@ -54,23 +54,42 @@ const Supporter = () => {
 
         <div className={styles.carousel}>
           <div className={styles.logo}>
-            <a href="https://tamperees.com/" target="_blank">
-              <Image src={TampereEs} width={556} height={405} />
+            <a href="https://tamperees.com/" target="_blank" rel="noreferrer">
+              <Image
+                alt="tampere ES Logo"
+                src={TampereEs}
+                width={556}
+                height={405}
+              />
             </a>
           </div>
           <div className={styles.logo}>
-            <a href="https://tribetampere.com/" target="_blank">
-              <Image src={Tribe} width={556} height={405} />
+            <a
+              href="https://tribetampere.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image alt="Tribe Logo" src={Tribe} width={556} height={405} />
             </a>
           </div>
           <div className={styles.logo}>
-            <a href="https://tampere.games/" target="_blank">
-              <Image src={Gamehub} width={556} height={405} />
+            <a href="https://tampere.games/" target="_blank" rel="noreferrer">
+              <Image
+                alt="Tampere Game Hub Logo"
+                src={Gamehub}
+                width={556}
+                height={405}
+              />
             </a>
           </div>
           <div className={styles.logo}>
-            <a href="https://dashboa.com/" target="_blank">
-              <Image src={Dashboa} width={556} height={405} />
+            <a href="https://dashboa.com/" target="_blank" rel="noreferrer">
+              <Image
+                alt="Dashboa Logo"
+                src={Dashboa}
+                width={556}
+                height={405}
+              />
             </a>
           </div>
         </div>

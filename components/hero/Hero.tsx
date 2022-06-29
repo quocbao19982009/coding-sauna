@@ -27,14 +27,14 @@ const Hero = () => {
                 <p>
                   Every Monday, 17:30
                   <br />
-                  &#92;&#92;Doors will be open until 18:00! Please arrive on
+                  &#92;&#92; Doors will be open until 18:00! Please arrive on
                   time.
                 </p>
               </div>
             </div>
           </div>
           <div className={styles.tree}>
-            <Image src={Tree} height={192} width={236}></Image>
+            <Image alt="trees" src={Tree} height={192} width={236}></Image>
           </div>
         </div>
       </Container>

@@ -14,7 +14,7 @@ const OrganizerItem = ({ name, image, email }: OrganizerItemProps) => {
   return (
     <div className={styles.item}>
       <div className={styles.image}>
-        <Image src={image} />
+        <Image src={image} alt={`${name}'s photo`} />
       </div>
       <span className={styles.name}>{name}</span>
       <span className={styles.email}>{`[ ${email} ]`}</span>
