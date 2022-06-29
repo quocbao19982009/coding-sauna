@@ -26,5 +26,16 @@
 .map {
   display: flex;
   justify-content: center;
-  margin: 2rem 0;
+  margin: 4rem 0;
+  min-width: 320px;
+}
+
+@media (min-width: 59rem) {
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .description {
+    padding-right: 10rem;
+  }
 }

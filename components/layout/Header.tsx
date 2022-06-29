@@ -17,15 +17,13 @@ const Header = () => {
       className={`${styles.header} ${isNavbarOpen ? styles["nav-open"] : ""}`}
     >
       <div className={styles.logo}>
-        <Link href="/">
-          <Image
-            width={120}
-            height={120}
-            className={styles.logo}
-            src={codingSaunaLogo}
-            alt="Insta's Logo"
-          />
-        </Link>
+        <Image
+          width={120}
+          height={120}
+          className={styles.logo}
+          src={codingSaunaLogo}
+          alt="Insta's Logo"
+        />
       </div>
       <nav
         className={` ${styles["main-nav"]} 

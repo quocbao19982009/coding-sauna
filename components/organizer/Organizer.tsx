@@ -10,37 +10,39 @@ const Organizer = () => {
     <section id="organizer" className={styles.organizer}>
       <Container>
         <h2>The organizers</h2>
-        <div className={styles.itemContainer}>
-          <OrganizerItem
-            image={sampleImage}
-            name={"Julian Wan"}
-            email=" julian@sauna.com"
-          />
-          <OrganizerItem
-            image={sampleImage}
-            name={"Julian Wan"}
-            email=" julian@sauna.com"
-          />
-          <OrganizerItem
-            image={sampleImage}
-            name={"Julian Wan"}
-            email=" julian@sauna.com"
-          />
-          <OrganizerItem
-            image={sampleImage}
-            name={"Julian Wan"}
-            email=" julian@sauna.com"
-          />
-          <OrganizerItem
-            image={sampleImage}
-            name={"Julian Wan"}
-            email=" julian@sauna.com"
-          />
-          <OrganizerItem
-            image={sampleImage}
-            name={"Julian Wan"}
-            email=" julian@sauna.com"
-          />
+        <div className={styles.content}>
+          <div className={styles.itemContainer}>
+            <OrganizerItem
+              image={sampleImage}
+              name={"Julian Wan"}
+              email=" julian@sauna.com"
+            />
+            <OrganizerItem
+              image={sampleImage}
+              name={"Julian Wan"}
+              email=" julian@sauna.com"
+            />
+            <OrganizerItem
+              image={sampleImage}
+              name={"Julian Wan"}
+              email=" julian@sauna.com"
+            />
+            <OrganizerItem
+              image={sampleImage}
+              name={"Julian Wan"}
+              email=" julian@sauna.com"
+            />
+            <OrganizerItem
+              image={sampleImage}
+              name={"Julian Wan"}
+              email=" julian@sauna.com"
+            />
+            <OrganizerItem
+              image={sampleImage}
+              name={"Julian Wan"}
+              email=" julian@sauna.com"
+            />
+          </div>
         </div>
       </Container>
     </section>

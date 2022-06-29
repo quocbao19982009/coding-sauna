@@ -4,7 +4,7 @@
 }
 
 .hero h1 {
-  font-size: 4rem;
+  font-size: 9rem;
   margin-bottom: 1.2rem;
 }
 
@@ -30,6 +30,36 @@
 }
 
 .tree {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  position: relative;
+  bottom: -20px;
+}
+
+.tree img {
+  width: 420px;
+  height: 388px;
+}
+
+@media (min-width: 59rem) {
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tree {
+    align-self: flex-end;
+    min-width: 236px;
+    right: 0;
+    bottom: -26px;
+  }
+  .about {
+    padding-bottom: 10rem;
+  }
+}
+
+@media (min-width: 120rem) {
+  .hero h1 {
+    position: relative;
+    right: 150px;
+  }
 }

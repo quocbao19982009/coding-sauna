@@ -1,8 +1,5 @@
 .organizer {
   background-color: var(--white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .organizer h2 {
@@ -15,4 +12,17 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+@media (min-width: 59rem) {
+  .itemContainer {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+  }
 }

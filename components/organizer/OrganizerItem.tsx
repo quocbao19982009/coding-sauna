@@ -13,7 +13,9 @@ interface OrganizerItemProps {
 const OrganizerItem = ({ name, image, email }: OrganizerItemProps) => {
   return (
     <div className={styles.item}>
-      <Image className={styles.image} src={image} />
+      <div className={styles.image}>
+        <Image src={image} />
+      </div>
       <span className={styles.name}>{name}</span>
       <span className={styles.email}>{`[ ${email} ]`}</span>
     </div>
